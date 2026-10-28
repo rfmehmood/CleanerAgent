@@ -1,0 +1,22 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Build artifacts & Binaries
+dist/
+build/
+*.spec
+installer/payload.zip
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local databases & quarantine
+data/
+*.db
+quarantine/
+
